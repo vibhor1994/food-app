@@ -8,7 +8,8 @@
   padding: 5px; }
 
 #sec1-taste-img {
-  height: 141px; }
+  height: 120px;
+  border-radius: 10px; }
 
 .sec2-desc {
   background: white;
@@ -57,7 +58,7 @@
   padding: 10px; }
 
 .sec3-web-img {
-  width: 45px; }
+  width: 30px; }
 
 .carousel-img {
   width: 100%; }

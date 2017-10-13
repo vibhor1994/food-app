@@ -1,6 +1,8 @@
 import PropType from 'prop-types';
 import React from 'react';
 import { Navbar,Nav ,NavItem,NavDropdown,MenuItem} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 const NavB = () => {
@@ -8,14 +10,18 @@ const NavB = () => {
     <Navbar className='nav-user' inverse collapseOnSelect fluid>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#"><strong>FoOdie</strong></a>
+          <Link to="/"><strong>FoOdie</strong></Link>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav>
-          <NavItem eventKey={1} href="#">Home</NavItem>
-          <NavItem eventKey={2} href="#">About-us</NavItem>
+        <LinkContainer to="/menu">
+          <NavItem eventKey={1} href="">Menu</NavItem>
+          </LinkContainer>
+          <LinkContainer to="/about">
+            <NavItem eventKey={2} href="">About-us</NavItem>
+          </LinkContainer>
           <NavDropdown eventKey={3} title="Login/Register" id="basic-nav-dropdown">
             <MenuItem eventKey={3.1}>New user</MenuItem>
             <MenuItem eventKey={3.2}>Foodei member</MenuItem>
@@ -25,7 +31,6 @@ const NavB = () => {
         </Nav>
         <Nav pullRight>
           <NavItem eventKey={1} href="#">Contact-Us</NavItem>
-          <NavItem eventKey={2} href="#">Logout</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

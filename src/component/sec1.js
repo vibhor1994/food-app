@@ -1,6 +1,8 @@
 import PropType from 'prop-types';
 import React from 'react';
 import { Row,Col,Panel,Image,Media,Button,Form,ControlLabel,FormGroup,FormControl} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 
 
 
@@ -28,6 +30,60 @@ const Sec1 = () => {
           </Col>
           <Col className="food-image-div" lg={3}  xs={4} md={4}>
             <Image id="sec1-taste-img" src={require('../../public/assets/filename-img-5360-jpg.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/1411p24-pork-cutlets-squash-apple-cranberry-saute.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/recipe-image-legacy-id--338556_11.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (2).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (3).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/Food_Meat_and_barbecue_Meat_dishes_with_seafood_012278_.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/c70a4f20e5f86d3a4c10a7740e66f061--easy-side-dishes-side-dish-recipes.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/1411p24-pork-cutlets-squash-apple-cranberry-saute.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/recipe-image-legacy-id--338556_11.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (2).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (3).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/Food_Meat_and_barbecue_Meat_dishes_with_seafood_012278_.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/c70a4f20e5f86d3a4c10a7740e66f061--easy-side-dishes-side-dish-recipes.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/1411p24-pork-cutlets-squash-apple-cranberry-saute.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/recipe-image-legacy-id--338556_11.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (2).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/images (3).jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/Food_Meat_and_barbecue_Meat_dishes_with_seafood_012278_.jpg')} rounded responsive />
+          </Col>
+          <Col className="food-image-div" lg={3}  xs={4} md={4}>
+            <Image id="sec1-taste-img" src={require('../../public/assets/c70a4f20e5f86d3a4c10a7740e66f061--easy-side-dishes-side-dish-recipes.jpg')} rounded responsive />
           </Col>
           <Col className="food-image-div" lg={3}  xs={4} md={4}>
             <Image id="sec1-taste-img" src={require('../../public/assets/1411p24-pork-cutlets-squash-apple-cranberry-saute.jpg')} rounded responsive />
@@ -110,10 +166,12 @@ const Sec1 = () => {
       </Col>
       <Col Col lg={3}>
         <Panel className="panel-div" header={<h3>Search...</h3>} bsStyle="danger">
+        <LinkContainer to="/menu">
           <Button  bsStyle="info" bsSize="large" block>Bring me MENU</Button>
+          </LinkContainer>
           <hr></hr>
-          <h4>Not Sure</h4>
-          <p>select this,we will help you out??</p>
+          <h4>Not Sure??</h4>
+          <p>select this,we will help you out!!</p>
           <Col Col xs={12}>
             <Form>
               <FormGroup controlId="formHorizontalEmail">
@@ -125,12 +183,10 @@ const Sec1 = () => {
                   <option value="other">Cuisine Type3</option>
                 </FormControl>
               </FormGroup>
-
               <FormGroup>
-
-                <Button bsStyle="success" bsSize="large" block type="submit">
-                    Submit
-                </Button>
+              <Button bsStyle="success" bsSize="large" block type="submit">
+                  Submit
+              </Button>
               </FormGroup>
             </Form>
           </Col>

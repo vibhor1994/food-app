@@ -14,7 +14,7 @@ class App extends React.Component {
   // <Banner msg = {this.state.title} />
   render(){
     return(
-      <div className="App-div">
+      <div className="About-div">
         <NavB />
         <div className="container-fluid"> <Cover /></div>
         <Sec1 />
