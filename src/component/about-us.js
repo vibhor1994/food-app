@@ -11,7 +11,9 @@ const About_us = () => {
       <Col Col xs={12}>
         <Jumbotron>
           <h1>FoOdie</h1>
-          <p>A FoOdie we eat a lot :-) lhshs lakhjsd dkjhl hj  askjdhf sh sjd skjdh jshd kjsh kljhsadf kjshdf sdkjf sjkfh kjsh kjashdf kjshf kjshdf kasjhdf kladhjfalkdhjf aa;ldsjfa;dkjsl ;aldkj ;as jfd;aldkj ;akdjsl;asdkjf;askdfj a;kslj fal;kjf lsk jflskdfj lskdfj lskfj slkdfj slkdfj sakdfj lskdfj sa;kdfl ;lskjf ;lasdjl;adsl;adkl;k asdf;klj asfjdkls;lfdlsdkfjlkajsf;lsjfd;ldkjfls;kjdfl ;sflkj sldfk lsk lk jslkfj ls;kj l;kdjs lksdj lskfdj ls;kfj la;kjsf slkfdj la;kdsj alksdfj lakdfjlaksfj l;kdsf al;sfjla;djlak sl;aksfj l;adkjl;sdkja;dksflj dklsfj adksfjl akdsfjasflkal</p>
+          <p>A FoOdie we eat a lot :-) With a fast pace expansion and over-whelming response by millions across the country, FoOdie Restaurants has over 28 locations across India and is also present in the Middle East. Come to FoOdie to savour the taste of tradition.Tikka is applied on the spot between the brows which is considered the seat of latent wisdom and mental concentration and is very important for worship. This also indicates the point at which the (third) spiritual eye opens. All thoughts and actions are supposed to be governed by this spot. Putting of the third eye symbolises the quest for the 'opening' of the third eye. All rites and ceremonies of the Hindus begin with a tilak topped wit a few grains of rice placed with the index finger or the thumb.
+
+Aarti is performed as an act of veneration and love. It is often performed as a mark of worship and to seek blessings from God, to welcome the guests, for children on their birthdays, family members on auspicious occasions or to welcome a newly wed couple. The purpose is to ward off evil effects and malefic influence of the 'evil eye'!</p>
         </Jumbotron>
       </Col>
     </Row>
