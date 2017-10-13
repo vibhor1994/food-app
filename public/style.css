@@ -1,0 +1,63 @@
+.nav-user {
+  margin-bottom: 5px; }
+
+.carousel-div {
+  margin-bottom: 10px; }
+
+.food-image-div {
+  padding: 5px; }
+
+#sec1-taste-img {
+  height: 141px; }
+
+.sec2-desc {
+  background: white;
+  color: #0b3d66; }
+
+.panel-div .panel-body {
+  height: 350px;
+  overflow-y: scroll; }
+
+.panel-div .panel-body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5; }
+
+.panel-div .panel-body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
+.panel-div .panel-body::-webkit-scrollbar-thumb {
+  background-color: #000000; }
+
+.sec2-img-div {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  position: relative; }
+
+.sec2-sub-div h3 {
+  color: coral; }
+
+.strip {
+  height: 1px;
+  background-color: #d8d8d8; }
+
+.strip-bottom {
+  margin-bottom: 15px; }
+
+.footer-div {
+  height: 190px;
+  color: white;
+  background-color: #072843; }
+
+.footer-sub-div {
+  height: 40px;
+  background-color: #00192f;
+  padding: 10px; }
+
+.sec3-web-img {
+  width: 45px; }
+
+.carousel-img {
+  width: 100%; }
